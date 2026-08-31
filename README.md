@@ -89,7 +89,7 @@ npm install
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/mern-agent
+MONGODB_URI=mongodb://localhost:27017/mern-agent(example)
 JWT_SECRET=your_jwt_secret
 GITHUB_CLIENT_ID=your_github_client_id
 GITHUB_CLIENT_SECRET=your_github_client_secret
@@ -158,17 +158,9 @@ Review the planned changes and approve. The agent will:
 - Rate limiting on API endpoints
 - Input validation and sanitization
 
-## Contributing 🤝
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License 📄
 
-MIT License - feel free to use this project for personal or commercial purposes.
+Private Property
 
 ## Roadmap 🗺️
 
