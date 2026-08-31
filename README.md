@@ -52,7 +52,7 @@ mern-coding-agent/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/abhishek-talwar/mern-coding-agent
 cd mern-coding-agent
 ```
 
