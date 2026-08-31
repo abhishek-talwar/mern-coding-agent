@@ -1,12 +1,11 @@
 import React from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { CheckCircle, Clock, AlertCircle, FileCode, GitCommit } from 'lucide-react';
 import { taskAPI } from '../services/api';
 
 function TaskDetail() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const queryClient = useQueryClient();
 
   const { data: taskData, isLoading, refetch } = useQuery({

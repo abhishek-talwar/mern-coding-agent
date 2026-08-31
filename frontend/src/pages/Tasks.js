@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useQuery, useMutation, useQueryClient } from '@tantml:parameter name="path" value="/workspace/frontend/src/pages/Tasks.js" />
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { Plus, FileText, CheckCircle, Clock, AlertCircle } from 'lucide-react';
 import { taskAPI, repoAPI } from '../services/api';
