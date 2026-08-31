@@ -1,52 +1,62 @@
 ```
 # Dependencies
 node_modules/
-backend/node_modules/
-frontend/node_modules/
+package-lock.json
 
-# Environment variables
+# Environment
 .env
 .env.local
 .env.*
 
-# Build outputs
-backend/dist/
-frontend/dist/
-backend/build/
-frontend/build/
-target/
-
-# Python cache
+# Cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-env/
-venv/
-.venv/
-.venv*/
+.pytest_cache/
+.mypy_cache/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
 
 # Logs
 *.log
-logs/
 
-# IDE files
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Temporary files
 *.tmp
-*.temp
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
